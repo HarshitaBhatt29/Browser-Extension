@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
+
+.task-container {
+    color: var(--text-color-primary);
+    padding-top: 4rem;
+    height: 100vh;
+    position: relative;
+}
+.time{
+    font-size: 4rem;
+    
+}
+.message{
+    font-size: 4rem;
+    margin: 0;
+}
+@media(max-width:768px) {
+    .message{
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 480px) {
+    .message {
+      font-size: 1.2em;
+    }
+  }
+.focus-question{
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+.input task-input{
+    font-size: 2rem;
+    width: 35vw;
+}
+.strike-through{
+    text-decoration: line-through;
+}
+.button {
+    background-color: transparent;
+    border: none;
+    color: var(--text-color-primary);
+}
+.quote-container{
+    width: 70vw;
+    margin-bottom: auto;
+    position: absolute;
+    bottom: 3.5rem;
+    text-align: center;
+}
+.todo-btn-container{
+    right: 2rem;
+    bottom: 3.5rem;
+}
+.todo-btn{
+    font-size: 2rem;
+
+}
